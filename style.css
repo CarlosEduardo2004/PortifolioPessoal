@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Source Code Pro", monospace;
+  /* background: url("../img/bg.jpeg") no-repeat top center; */
+  background-color: #0e5e64;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+  color: #aeaeae;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.box {
+  width: 750px;
+  height: 450px;
+  background: #eee;
+  padding: 2rem;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.profile-pic {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 0 auto;
+}
+
+.profile span {
+  font-size: 24px;
+}
+
+.profile p {
+  font-size: 18px;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.imgPerfil {
+  position: relative;
+  right: 35%;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.info li {
+  width: 50px; 
+  margin-right: 2rem; 
+  margin-top: 0px;
+}
+
+.redes-sociais {
+  display: flex;
+  justify-content: center;
+}
+
+.redes-sociais li {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.copyright p {
+  margin-top: 5px;
+  font-size: 24px;
+  color: white;
+  text-shadow: 2px 2px 16px black;
+  margin: 50vh 0;
+}
